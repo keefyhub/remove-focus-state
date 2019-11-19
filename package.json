@@ -1,0 +1,9 @@
+{
+  "name": "remove-focus-state",
+  "version": "1.0.0",
+  "description": "Removes focus state for click events",
+  "main": "index.js",
+  "repository": "https://github.com/keefyhub/remove-focus-state.git",
+  "author": "Keith Light",
+  "license": "WTFPL"
+}
