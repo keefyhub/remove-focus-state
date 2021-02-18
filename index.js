@@ -1,4 +1,4 @@
-export default class RemoveFocusState {
+class RemoveFocusState {
     constructor() {
         window.addEventListener('keydown', this.handleFirstTab);
         window.addEventListener('mousedown', this.handleMouseDownOnce);
@@ -22,3 +22,5 @@ export default class RemoveFocusState {
         window.addEventListener('keydown', this.handleFirstTab);
     }
 }
+
+module.exports = RemoveFocusState;
