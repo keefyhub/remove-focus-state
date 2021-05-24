@@ -12,7 +12,7 @@ new RemoveFocusState();
 body {
   ...
   
-  &.user-is-clicking {
+  &.user-is-clicking *:focus {
     box-shadow: none;
     outline: 0
   }
